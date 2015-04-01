@@ -1,0 +1,16 @@
+<!--
+  Author: Joel Rainey
+  Date: 3/19
+  Class: CS211D Spring 2015
+  Android Project: User Login/Password + Temperature Converter
+  Filename: dimens.xml
+  Assignment Objective: Create an application with Two Activities. First Activity User login
+  entering user id "admin" and user password "password" and press login button to open
+  Temperature Converter Activity
+-->
+
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_text_size">18dp</dimen>
+</resources>

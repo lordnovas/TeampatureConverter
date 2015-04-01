@@ -1,0 +1,25 @@
+<!--
+  Author: Joel Rainey
+  Date: 3/19
+  Class: CS211D Spring 2015
+  Android Project: User Login/Password + Temperature Converter
+  Filename: strings.xml
+  Assignment Objective: Create an application with Two Activities. First Activity User login
+  entering user id "admin" and user password "password" and press login button to open
+  Temperature Converter Activity
+-->
+
+<resources>
+    <string name="app_name">TeampatureConverter</string>
+
+    <string name="myTitle">Temperature Converter</string>
+    <string name="celToFar">Celsius to Fahrenheit</string>
+    <string name="farToCel">Fahrenheit to Celsius</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_user_list_screen">UserListScreen</string>
+
+    <string name="hello_world">Top Ten Users</string>
+
+</resources>

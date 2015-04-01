@@ -1,0 +1,66 @@
+<!--
+  Author: Joel Rainey
+  Date: 3/19
+  Class: CS211D Spring 2015
+  Android Project: User Login/Password + Temperature Converter
+  Filename: activity_login_screen.xml
+  Assignment Objective: Create an application with Two Activities. First Activity User login
+  entering user id "admin" and user password "password" and press login button to open
+  Temperature Converter Activity
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="jr.com.teampatureconverter.LoginScreen">
+
+    <EditText
+        android:id="@+id/et_UserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID..."
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password..."
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="login"/>
+    <Button
+        android:text="Save User ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="save"/>
+    <Button
+        android:id="@+id/btn_gotoUserList"
+        android:text="View Users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goTo_UserList"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp">
+
+        <RadioButton
+            android:id="@+id/showPassword"
+            android:text="Show Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+</LinearLayout>

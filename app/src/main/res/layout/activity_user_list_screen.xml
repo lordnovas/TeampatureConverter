@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                tools:context="jr.com.teampatureconverter.UserListScreen">
+
+    <TextView
+        android:id="@+id/userList"
+        android:text="Top Ten Users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <Button
+        android:text="Load Users"
+        android:id="@+id/bt_loadUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadUsers"/>
+
+    <Button
+        android:text="Go To Temperature Converter"
+        android:id="@+id/bt_goToConverter"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToConverter"/>
+    <Button
+       android:text="Go To Login Screen"
+        android:id="@+id/bt_goToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToLogin"/>
+
+
+
+</LinearLayout>
